@@ -18,11 +18,12 @@ def updateData():
     from datetime import datetime, timedelta
     from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory
     from sqlalchemy import create_engine
-        
-    consumer_key = 'D7Ch0N24KVqLpwk7jVgwbNHtT'
-    consumer_secret = 'hrqTxd1tueHNuEmdwqNtXPyplHYpgYIOJRGw662NyIu6sYYsPD'
-    access_token = '1288033810722852869-zJeJ6zkxdhFuHpgLRhTd5NhLcmygNh'
-    access_token_secret = '6TNEDjmX4kTl0UFNFRpZoGb3p2D5TycvZ9d6hh9pK2Lia'
+    
+    # make your tweet api in twitter developer
+    consumer_key = '#'
+    consumer_secret = '#'
+    access_token = '#'
+    access_token_secret = '#'
     
     auth = tp.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
